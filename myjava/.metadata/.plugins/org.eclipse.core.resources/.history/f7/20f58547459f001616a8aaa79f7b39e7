@@ -1,0 +1,23 @@
+'''
+Created on 2016年10月31日
+
+@author: y35chen
+'''
+
+def still_want_to_buy_something():
+    while True:
+        answer = input('Do you still want to buy something?(y/n)\n')
+        result = is_a_valid_answer(answer)
+        if result == 'yes':return True
+        if result == 'no': return False
+        print("[Warn]Please enter [yes/no] or [y/n]\n")
+        
+def is_a_valid_answer(answer):
+    yes_pattern = re.compile(r"[Yy][Ee][Ss]|[Yy]")
+    no_pattern = re.compile(r"[Nn][Oo]|[Nn]")
+    if yes_pattern.match(answer):return "yes"
+    if no_pattern.match(answer):return "no"
+    return False
+
+answer = still_want_to_buy_something()
+print(answer)

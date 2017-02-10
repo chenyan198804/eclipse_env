@@ -1,0 +1,29 @@
+-- VERSION_4
+-- START DISKCACHE_2
+D:\myjava\.metadata\.plugins\org.eclipse.core.resources\.projects\QIE_Project\com.python.pydev.analysis\v2_indexcache
+TestCaseHandle.test01|1483686620221259000|D:\myjava\QIE_Project\TestCaseHandle\test01.py
+TestCaseHandle.StartToolWithRightHandBotton|1484896186788001000|D:\myjava\QIE_Project\TestCaseHandle\StartToolWithRightHandBotton.py
+TestCaseHandle.test02|1483691238363037000|D:\myjava\QIE_Project\TestCaseHandle\test02.py
+TestCaseHandle.test03|1483691421157348000|D:\myjava\QIE_Project\TestCaseHandle\test03.py
+TestCaseHandle.test04|1483685731185365000|D:\myjava\QIE_Project\TestCaseHandle\test04.py
+TestCaseHandle.__init__|1481269463817176000|D:\myjava\QIE_Project\TestCaseHandle\__init__.py
+-- END DISKCACHE
+-- START DICTIONARY
+5
+5=TestCaseHandle.test01
+3=TestCaseHandle.test02
+4=TestCaseHandle.StartToolWithRightHandBotton
+2=TestCaseHandle.test03
+1=TestCaseHandle.test04
+-- END DICTIONARY
+-- START TREE 1
+5
+enu|1|Enumkey!11@
+i|2|i!11@i!19@
+key|3|key!11@key!19@key!27@
+new|8|newKey!35@newKey!43@newsubKey!43@newKey!11@newsubKey!27@newKey!27@newsubKey!11@newsubKey!35@
+sub|5|sub_key!43@sub_key!19@sub_key!27@sub_key!35@sub_key!11@
+-- END TREE
+-- START TREE 2
+0
+-- END TREE

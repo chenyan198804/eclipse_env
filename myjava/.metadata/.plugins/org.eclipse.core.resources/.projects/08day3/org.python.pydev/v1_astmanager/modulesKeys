@@ -1,0 +1,8 @@
+MODULES_MANAGER_V2
+Mybank.AccountCheck|D:\myjava\08day3\Mybank\AccountCheck.py
+Mybank.BankRe|D:\myjava\08day3\Mybank\BankRe.py
+Mybank.CreditCard|D:\myjava\08day3\Mybank\CreditCard.py
+Mybank.CreditCardService|D:\myjava\08day3\Mybank\CreditCardService.py
+Mybank.TransactionReporter|D:\myjava\08day3\Mybank\TransactionReporter.py
+Mybank.__init__|D:\myjava\08day3\Mybank\__init__.py
+Mybank.test|D:\myjava\08day3\Mybank\test.py

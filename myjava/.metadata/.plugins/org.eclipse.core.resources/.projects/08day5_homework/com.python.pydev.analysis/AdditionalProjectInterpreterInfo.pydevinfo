@@ -1,0 +1,51 @@
+-- VERSION_4
+-- START DISKCACHE_2
+D:\myjava\.metadata\.plugins\org.eclipse.core.resources\.projects\08day5_homework\com.python.pydev.analysis\v2_indexcache
+backend.server|1484185520291897000|D:\myjava\08day5_homework\backend\server.py
+backend.server01|1484116728241049000|D:\myjava\08day5_homework\backend\server01.py
+model.__init__|1483598323169436000|D:\myjava\08day5_homework\model\__init__.py
+backend.config|1483606781044167000|D:\myjava\08day5_homework\backend\config.py
+model.models|1484125057948960000|D:\myjava\08day5_homework\model\models.py
+uility.__init__|1483598333150434000|D:\myjava\08day5_homework\uility\__init__.py
+backend.client|1484188956206058000|D:\myjava\08day5_homework\backend\client.py
+uility.sqlhelper|1483601448423940000|D:\myjava\08day5_homework\uility\sqlhelper.py
+uility.sqltext|1483604726224687000|D:\myjava\08day5_homework\uility\sqltext.py
+backend.__init__|1483598269822102000|D:\myjava\08day5_homework\backend\__init__.py
+-- END DISKCACHE
+-- START DICTIONARY
+13
+8=MySqlHelper
+12=UserInfo.__init__
+1=model.models
+9=UserInfo
+7=MySqlHelper.__init__
+4=backend.server
+5=backend.server01
+2=backend.config
+3=backend.client
+6=uility.sqlhelper
+10=ChatRecord
+11=MyServer
+13=ChatRecord.__init__
+-- END DICTIONARY
+-- START TREE 1
+6
+cha|1|ChatRecord!9@
+con|1|ConnDict!19@
+mai|1|main!26@
+mys|3|MyServer!33@MyServer!41@MySqlHelper!49@
+ser|2|server!35@server!43@
+use|1|UserInfo!9@
+-- END TREE
+-- START TREE 2
+9
+__c|1|__ConnDict!7&51@
+__i|3|__init__!8&50@__init__!9&10@__init__!10&10@
+che|1|CheckLogin!9&10@
+fin|1|finish!11&34@
+get|3|GetDict!8&50@GetRecord!10&10@GetSimple!8&50@
+han|2|handle!11&42@handle!11&34@
+ins|3|InsSample_ReturnId!8&50@InsertRecord!10&10@InsSamples!8&50@
+set|2|setup!11&34@setup!11&42@
+sql|2|sqlHelper!12&11@sqlHelper!13&11@
+-- END TREE

@@ -1,0 +1,72 @@
+-- VERSION_4
+-- START DISKCACHE_2
+D:\myjava\.metadata\.plugins\org.eclipse.core.resources\.projects\08day5_3\com.python.pydev.analysis\v2_indexcache
+fileupload.EddyFtpserver|1481529074396683000|D:\myjava\08day5_3\fileupload\EddyFtpserver.py
+main.pract|1481089974593529000|D:\myjava\08day5_3\main\pract.py
+udpsocketdemo.__init__|1481161947882811000|D:\myjava\08day5_3\udpsocketdemo\__init__.py
+udpsocketdemo.server|1481162037211743000|D:\myjava\08day5_3\udpsocketdemo\server.py
+main.__init__|1481004253849565000|D:\myjava\08day5_3\main\__init__.py
+threadingsocketdemo.client|1481268814033204000|D:\myjava\08day5_3\threadingsocketdemo\client.py
+udpsocketdemo.client|1481162137782799000|D:\myjava\08day5_3\udpsocketdemo\client.py
+main.index|1481092887340784000|D:\myjava\08day5_3\main\index.py
+threadingsocketdemo.__init__|1481260861784364000|D:\myjava\08day5_3\threadingsocketdemo\__init__.py
+socketdemo.__init__|1481006113916562000|D:\myjava\08day5_3\socketdemo\__init__.py
+socketdemo.client|1484033405295410000|D:\myjava\08day5_3\socketdemo\client.py
+threadingsocketdemo.server|1483951433853218000|D:\myjava\08day5_3\threadingsocketdemo\server.py
+fileupload.EddyFtpclient|1481529035449788000|D:\myjava\08day5_3\fileupload\EddyFtpclient.py
+socketdemo.server|1484033421501031000|D:\myjava\08day5_3\socketdemo\server.py
+fileupload.__init__|1481527285195776000|D:\myjava\08day5_3\fileupload\__init__.py
+-- END DISKCACHE
+-- START DICTIONARY
+14
+6=fileupload.EddyFtpserver
+1=main.pract
+7=udpsocketdemo.server
+2=threadingsocketdemo.client
+3=udpsocketdemo.client
+11=ClientHandler
+9=main.index
+14=EddyFtpserver
+4=socketdemo.client
+10=threadingsocketdemo.server
+5=fileupload.EddyFtpclient
+12=ClientHandler.__init__
+8=socketdemo.server
+13=MyServer
+-- END DICTIONARY
+-- START TREE 1
+22
+add|1|ADDRESS!11@
+buf|1|BUFSIZE!11@
+cli|5|client!19@client!27@ClientHandler!9@client!35@client_command!43@
+con|1|confirm!42@
+cur|2|current_dir!43@current_dir!51@
+dat|4|data!59@data!19@data!67@data!35@
+edd|1|EddyFtpserver!49@
+fil|1|filename!43@
+fla|1|flag!67@
+han|2|handle_request!74@handler!11@
+hos|2|HOST!11@host!51@
+inp|3|inp!35@inp!27@inp!19@
+ip|1|ip!43@
+ip_|5|ip_port!19@ip_port!27@ip_port!35@ip_port!59@ip_port!67@
+mai|1|main!74@
+mys|1|MyServer!81@
+por|3|port!51@port!43@PORT!11@
+rec|1|recvfile!42@
+s|2|s!51@s!43@
+sen|1|sendfile!42@
+ser|2|server!83@server!11@
+sk|2|sk!59@sk!67@
+-- END TREE
+-- START TREE 2
+8
+__i|1|__init__!11&10@
+_cl|1|_client!12&11@
+fin|1|finish!13&82@
+han|2|handle!14&50@handle!13&82@
+rec|1|recvfile!14&50@
+run|1|run!11&10@
+sen|1|sendfile!14&50@
+set|1|setup!13&82@
+-- END TREE

@@ -1,0 +1,14 @@
+'''
+Created on 2016年10月31日
+
+@author: y35chen
+'''
+shopping_cart = ['Flower','Flower','Car']
+shopping_tuple = tuple(shopping_cart)
+print(shopping_tuple)
+for i in shopping_tuple:
+    num = shopping_tuple.count(i) 
+    print(i,num)
+    
+
+            

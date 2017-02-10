@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        .shade{
+        position:fixed;
+        top:0;
+        right:0;
+        bottom:0;
+        left:0;
+        background-color:#333;
+        opacity:0.1;
+        z-index:9;
+        }
+        .delete{
+        position:fixed;
+        top:50%;
+        left:50%;
+        width:200px;
+        height:100px;
+        background-color:white;
+        margin-left:-200px;
+        margin-top:-150px;
+        z-index:10;
+        }
+        .hide{
+        display:none}
+    </style>
+</head>
+<body>
+    <table>
+        <tr>
+            <th>IP</th>
+            <th>编辑</th>
+        </tr>
+        <tr>
+            <td>22.22.22.2</td>
+            <td>删除</td>
+        </tr>
+        <tr>
+            <td>22.22.22.2</td>
+            <td>删除</td>
+        </tr>
+    </table>
+    <!-- 遮罩层开始 -->
+    <div class="shade"></div>
+    <!-- 遮罩层结束 -->
+    <!-- 删除层开始 -->
+    <div class="delete">
+        <div>提示</div>
+        <div>确定要删除吗</div>
+        <div>
+            <input type="button" value="取消" />
+            <input type="button" value="确定" />
+        </div>
+    </div>
+    <!-- 删除层结束 -->
+</body>
+</html>

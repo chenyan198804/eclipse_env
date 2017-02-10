@@ -1,0 +1,19 @@
+-- VERSION_4
+-- START DISKCACHE_2
+D:\myjava\.metadata\.plugins\org.eclipse.core.resources\.projects\08day09\com.python.pydev.analysis\v2_indexcache
+homework.__init__|1484878306539113000|D:\myjava\08day09\homework\__init__.py
+html_demo.__init__|1484619790629093000|D:\myjava\08day09\html_demo\__init__.py
+html_demo.server|1484620576146637000|D:\myjava\08day09\html_demo\server.py
+-- END DISKCACHE
+-- START DICTIONARY
+1
+1=html_demo.server
+-- END DICTIONARY
+-- START TREE 1
+2
+han|1|handle_request!10@
+mai|1|main!10@
+-- END TREE
+-- START TREE 2
+0
+-- END TREE

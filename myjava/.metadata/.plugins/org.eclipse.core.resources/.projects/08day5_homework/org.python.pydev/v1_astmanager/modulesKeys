@@ -1,0 +1,11 @@
+MODULES_MANAGER_V2
+backend.__init__|D:\myjava\08day5_homework\backend\__init__.py
+backend.client|D:\myjava\08day5_homework\backend\client.py
+backend.config|D:\myjava\08day5_homework\backend\config.py
+backend.server|D:\myjava\08day5_homework\backend\server.py
+backend.server01|D:\myjava\08day5_homework\backend\server01.py
+model.__init__|D:\myjava\08day5_homework\model\__init__.py
+model.models|D:\myjava\08day5_homework\model\models.py
+uility.__init__|D:\myjava\08day5_homework\uility\__init__.py
+uility.sqlhelper|D:\myjava\08day5_homework\uility\sqlhelper.py
+uility.sqltext|D:\myjava\08day5_homework\uility\sqltext.py

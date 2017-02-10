@@ -1,0 +1,14 @@
+'''
+Created on 2016年10月31日
+
+@author: y35chen
+'''
+shopping_cart = ['Flower','Flower','Car']
+shopping_dict = {}
+for i in shopping_cart:
+    num = shopping_cart.count(i) 
+    shopping_dict.update(i,num)
+    
+    print('You have bought %d %s'%(list.count(i),i))
+    print(type(shopping_cart))
+            

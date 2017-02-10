@@ -1,0 +1,7 @@
+'''
+Created on 2016年10月31日
+
+@author: y35chen
+'''
+selection = input('please input your selection')
+print(type(selection))

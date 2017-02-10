@@ -1,0 +1,37 @@
+-- VERSION_4
+-- START DISKCACHE_2
+D:\myjava\.metadata\.plugins\org.eclipse.core.resources\.projects\08day5_2\com.python.pydev.analysis\v2_indexcache
+main.config|1483606504064472000|D:\myjava\08day5_2\main\config.py
+utility.__init__|1480921386427232000|D:\myjava\08day5_2\utility\__init__.py
+model.__init__|1480921376251215000|D:\myjava\08day5_2\model\__init__.py
+main.__init__|1480921515438132000|D:\myjava\08day5_2\main\__init__.py
+model.admin|1480928644834029000|D:\myjava\08day5_2\model\admin.py
+utility.sql_helper|1480930790271556000|D:\myjava\08day5_2\utility\sql_helper.py
+main.index|1483940643178225000|D:\myjava\08day5_2\main\index.py
+-- END DISKCACHE
+-- START DICTIONARY
+8
+2=main.config
+8=MySqlHelper
+6=Admin.__init__
+1=model.admin
+4=utility.sql_helper
+3=main.index
+7=Admin
+5=MySqlHelper.__init__
+-- END DICTIONARY
+-- START TREE 1
+4
+adm|1|Admin!9@
+con|1|ConnDict!19@
+mai|1|main!26@
+mys|1|MySqlHelper!33@
+-- END TREE
+-- START TREE 2
+5
+__c|1|__ConnDict!5&35@
+__h|1|__helper!6&11@
+__i|2|__init__!7&10@__init__!8&34@
+che|1|CheckValidate!7&10@
+get|3|GetOne!8&34@GetOne!7&10@GetDict!8&34@
+-- END TREE

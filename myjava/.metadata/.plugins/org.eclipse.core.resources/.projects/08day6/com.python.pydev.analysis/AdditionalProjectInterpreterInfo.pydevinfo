@@ -1,0 +1,44 @@
+-- VERSION_4
+-- START DISKCACHE_2
+D:\myjava\.metadata\.plugins\org.eclipse.core.resources\.projects\08day6\com.python.pydev.analysis\v2_indexcache
+threading_demo.mythread|1484619727567788000|D:\myjava\08day6\threading_demo\mythread.py
+threading_demo.index|1484558936458504000|D:\myjava\08day6\threading_demo\index.py
+ftp.server|1484207944344780000|D:\myjava\08day6\ftp\server.py
+oop.index|1484202810693452000|D:\myjava\08day6\oop\index.py
+oop.__init__|1484202704799864000|D:\myjava\08day6\oop\__init__.py
+threading_demo.__init__|1484546809032541000|D:\myjava\08day6\threading_demo\__init__.py
+ftp.client|1484207856843031000|D:\myjava\08day6\ftp\client.py
+ftp.__init__|1484205616364991000|D:\myjava\08day6\ftp\__init__.py
+-- END DISKCACHE
+-- START DICTIONARY
+7
+5=threading_demo.mythread
+3=threading_demo.index
+2=oop.index
+4=ftp.server
+6=Foo
+7=MyServer
+1=ftp.client
+-- END DICTIONARY
+-- START TREE 1
+13
+dat|1|data!11@
+f|1|f!11@
+fil|2|file_size!11@file_name!11@
+fla|1|Flag!11@
+foo|3|Foo!17@foo!19@Foo!26@
+inp|1|inp!11@
+ins|1|instance!35@
+ip_|1|ip_port!11@
+mys|1|MyServer!33@
+myt|1|MyThread!41@
+sen|1|send_size!11@
+sk|1|sk!11@
+t1|1|t1!27@
+-- END TREE
+-- START TREE 2
+3
+__c|1|__call__!6&18@
+__i|1|__init__!6&18@
+han|1|handle!7&34@
+-- END TREE

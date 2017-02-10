@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?pydev-testrun version="1.0"?><pydev-testsuite>
+<summary errors="1" failures="0" finished="false" name="Test Run: 1" tests="0" total_time="null"/>
+<test location="D:/myjava/08day5_homework/backend/client.py" status="error" test="client" time="0">
+<stdout/>
+<stderr><![CDATA[Traceback (most recent call last):
+  File "D:\userdata\y35chen\Downloads\eclipse\plugins\org.python.pydev_5.1.2.201606231256\pysrc\_pydev_runfiles\pydev_runfiles.py", line 468, in __get_module_from_str
+    mod = __import__(modname)
+  File "D:\myjava\08day5_homework\backend\client.py", line 9, in <module>
+    client.connect(ip_port)
+ConnectionRefusedError: [WinError 10061] No connection could be made because the target machine actively refused it
+ERROR: Module: client could not be imported (file: D:/myjava/08day5_homework/backend/client.py).
+]]></stderr>
+</test>
+<launch mode="run">
+<launch_memento><![CDATA[<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<launchConfiguration local="true" path="08day5_homework backend"/>
+]]></launch_memento>
+</launch>
+</pydev-testsuite>

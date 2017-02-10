@@ -1,0 +1,11 @@
+'''
+Created on 2016年8月17日
+
+@author: y35chen
+'''
+from urllib import request
+old_url = 'http://rrurl.cn.b1UZuP'
+req = request.Request(old_url)
+response = request.urlopen(req)
+print('old url': old_url)
+print('real url': response.geturl())

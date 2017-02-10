@@ -1,0 +1,7 @@
+ create table chatrecord
+(
+ Nid int auto_increment primary key,
+ message varchar(256),
+date datetime,
+ useid int,
+);

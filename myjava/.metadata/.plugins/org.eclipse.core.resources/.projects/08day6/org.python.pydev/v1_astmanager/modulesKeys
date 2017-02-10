@@ -1,0 +1,9 @@
+MODULES_MANAGER_V2
+ftp.__init__|D:\myjava\08day6\ftp\__init__.py
+ftp.client|D:\myjava\08day6\ftp\client.py
+ftp.server|D:\myjava\08day6\ftp\server.py
+oop.__init__|D:\myjava\08day6\oop\__init__.py
+oop.index|D:\myjava\08day6\oop\index.py
+threading_demo.__init__|D:\myjava\08day6\threading_demo\__init__.py
+threading_demo.index|D:\myjava\08day6\threading_demo\index.py
+threading_demo.mythread|D:\myjava\08day6\threading_demo\mythread.py

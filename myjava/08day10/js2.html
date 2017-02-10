@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script type="text/javascript">
+    function f2(){
+            var arg= [11,22];
+            function f3(){
+                console.log(arg);
+            }
+            arg = [44,55];
+            return f3;
+        }
+
+        ret = f2();
+        ret();
+</script>
+
+</body>
+</html>

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+    <input type="button" value="全选"  onclick="CheckAll();"/>
+    <input type="button" value="取消" onclick="CancelAll();"/>
+    <input type="button" value="反选" onclick="ReverseCheck();"/>
+
+    <table border="1" >
+        <thead>
+
+        </thead>
+        <tbody id="tb">
+            <tr>
+                <td><input type="checkbox" /></td>
+                <td>111</td>
+                <td>222</td>
+            </tr>
+            <tr>
+                <td><input type="checkbox" /></td>
+                <td>111</td>
+                <td>222</td>
+            </tr>
+            <tr>
+                <td><input type="checkbox" /></td>
+                <td>111</td>
+                <td>222</td>
+            </tr>
+            <tr>
+                <td><input type="checkbox" /></td>
+                <td>111</td>
+                <td>222</td>
+            </tr>
+        </tbody>
+    </table>
+    <script>
+        function CheckAll(ths){
+            var tb = document.getElementById('tb');
+            var trs = tb.childNodes;
+            for(var i =0; i<trs.length; i++){
+
+                var current_tr = trs[i];
+                if(current_tr.nodeType==1){
+                    var inp = current_tr.firstElementChild.getElementsByTagName('input')[0];
+                    inp.checked = true;
+                }
+            }
+        }
+
+        function CancelAll(ths){
+            var tb = document.getElementById('tb');
+            var trs = tb.childNodes;
+            for(var i =0; i<trs.length; i++){
+
+                var current_tr = trs[i];
+                if(current_tr.nodeType==1){
+                    var inp = current_tr.firstElementChild.getElementsByTagName('input')[0];
+                    inp.checked = false;
+                }
+            }
+        }
+
+        function ReverseCheck(ths){
+            var tb = document.getElementById('tb');
+            var trs = tb.childNodes;
+            for(var i =0; i<trs.length; i++){
+                var current_tr = trs[i];
+                if(current_tr.nodeType==1){
+                    var inp = current_tr.firstElementChild.getElementsByTagName('input')[0];
+                    if(inp.checked){
+                        inp.checked = false;
+                    }else{
+                        inp.checked = true;
+                    }
+                }
+            }
+        }
+
+    </script>
+</body>
+</html>

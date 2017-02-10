@@ -1,0 +1,12 @@
+'''
+Created on 2016年11月14日
+
+@author: y35chen
+'''
+temp = lambda x,y:x+y 
+print(temp(4,4))
+
+a = [x*2 for x in range(10)]
+print(a)
+
+map(lambda x:x**2,range(10))

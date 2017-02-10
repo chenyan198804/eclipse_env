@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <div style="width:500px;background-color:#ddd;">
+        <div id='process' style="width:10%;background-color:green;height:10px"></div>
+    </div>
+    <input value="Stop" onclick="Stop();" />
+    <script src="js/oldboy.js"></script>
+    <script type="text/javascript">
+        pro = 10;
+        function process(){
+            var id = document.getElementById('process');
+            pro = pro + 90;
+            id.style.width = pro + '%';
+        }
+         interval = setTimeout('process()',5000);
+
+        function Stop(){
+            clearTimeout(interval);
+        }
+    </script>
+
+</body>
+</html>

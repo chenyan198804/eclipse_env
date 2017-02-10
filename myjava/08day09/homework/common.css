@@ -1,0 +1,113 @@
+body{
+    font-size: 14px;
+    color: #666;
+    background: #fff;
+    margin: 0;
+    padding: 0;
+    display: block;
+}
+input, txt{
+    font-family: "Microsoft YaHei","Hiragino Sans GB";
+
+}
+
+div {
+    display: block;
+}
+
+a {
+    color: #666;
+    text-decoration: none;
+}
+
+.w{
+    width:990px;
+    margin:0;
+
+}
+
+.header{
+    height: 110px;
+    background: url(image/headbg.jpg) repeat-x left bottom;
+}
+
+.logo{
+     position:fixed;
+     left:12%;
+     width:160px;
+     height:50px;
+     float:left;
+     margin-top:24px;
+     background: url(image/icon.png) no-repeat;
+}
+
+.logo-title{
+     position:fixed;
+     left:23%;
+     float:left;
+     height:34px;
+     line-height:34px;
+     font-size:24px;
+     color:#333;
+     padding-left:30px;
+     margin-top:34px
+}
+
+.have-account{
+     font-size:16px;
+     float:right;
+     margin-top:55px;
+     color:#999;
+}
+
+.main{
+    margin:50px auto 60px
+    width:830px
+}
+
+.form-item{
+    position: relative;
+    left:23%;
+    top:30%;
+    border:solid 1px #ddd;
+    width:398px;
+    height:52px;
+}
+
+.form-item-lable{
+    float:left;
+    width:90px;
+    height:52px;
+    line-height:52px;
+    padding-left:20px;
+}
+
+.form-item-account{
+    z-index:13;
+}
+
+
+
+
+
+
+.txt-index{
+    position: absolute;
+    z-index: 2;
+    line-height: 46px;
+    margin-left: 20px;
+    margin-top: 1px;
+    padding left:20px;
+    color: rgb(204, 204, 204); display: inline;
+}
+
+.field{
+
+    width:190px;
+    height:19px;
+    padding-bottom:11px;
+    padding-left:20px;
+    padding-top:16px;
+    outline:0px;
+    padding: 1px 0px;
+}

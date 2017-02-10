@@ -1,0 +1,39 @@
+-- VERSION_4
+-- START DISKCACHE_2
+D:\myjava\.metadata\.plugins\org.eclipse.core.resources\.projects\08day5\com.python.pydev.analysis\v2_indexcache
+oop.index|1480569834539955000|D:\myjava\08day5\oop\index.py
+oop.__init__|1480560566496225000|D:\myjava\08day5\oop\__init__.py
+main.__init__|1480572034469936000|D:\myjava\08day5\main\__init__.py
+main.index|1480928228669416000|D:\myjava\08day5\main\index.py
+-- END DISKCACHE
+-- START DICTIONARY
+5
+3=Person.__init__
+4=Person.Clothes
+1=oop.index
+2=main.index
+5=Person
+-- END DICTIONARY
+-- START TREE 1
+6
+P1|1|P1!11@
+P2|1|P2!11@
+dat|1|data!11@
+f|1|f!19@
+fun|1|func!18@
+per|1|Person!9@
+-- END TREE
+-- START TREE 2
+11
+__c|2|__clothes!3&11@__clothes!4&11@
+__g|1|__Gene!3&11@
+__i|1|__init__!5&10@
+age|1|Age!3&11@
+clo|1|Clothes!5&10@
+fig|1|fight!5&10@
+gen|2|Gender!3&11@Gene!5&10@
+m|1|m!5&11@
+nam|1|Name!3&11@
+tal|1|talk!5&10@
+wei|1|Weight!3&11@
+-- END TREE

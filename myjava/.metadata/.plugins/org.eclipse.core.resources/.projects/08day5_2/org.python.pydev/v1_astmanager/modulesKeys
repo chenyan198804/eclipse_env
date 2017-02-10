@@ -1,0 +1,8 @@
+MODULES_MANAGER_V2
+main.__init__|D:\myjava\08day5_2\main\__init__.py
+main.config|D:\myjava\08day5_2\main\config.py
+main.index|D:\myjava\08day5_2\main\index.py
+model.__init__|D:\myjava\08day5_2\model\__init__.py
+model.admin|D:\myjava\08day5_2\model\admin.py
+utility.__init__|D:\myjava\08day5_2\utility\__init__.py
+utility.sql_helper|D:\myjava\08day5_2\utility\sql_helper.py

@@ -1,0 +1,16 @@
+MODULES_MANAGER_V2
+fileupload.EddyFtpclient|D:\myjava\08day5_3\fileupload\EddyFtpclient.py
+fileupload.EddyFtpserver|D:\myjava\08day5_3\fileupload\EddyFtpserver.py
+fileupload.__init__|D:\myjava\08day5_3\fileupload\__init__.py
+main.__init__|D:\myjava\08day5_3\main\__init__.py
+main.index|D:\myjava\08day5_3\main\index.py
+main.pract|D:\myjava\08day5_3\main\pract.py
+socketdemo.__init__|D:\myjava\08day5_3\socketdemo\__init__.py
+socketdemo.client|D:\myjava\08day5_3\socketdemo\client.py
+socketdemo.server|D:\myjava\08day5_3\socketdemo\server.py
+threadingsocketdemo.__init__|D:\myjava\08day5_3\threadingsocketdemo\__init__.py
+threadingsocketdemo.client|D:\myjava\08day5_3\threadingsocketdemo\client.py
+threadingsocketdemo.server|D:\myjava\08day5_3\threadingsocketdemo\server.py
+udpsocketdemo.__init__|D:\myjava\08day5_3\udpsocketdemo\__init__.py
+udpsocketdemo.client|D:\myjava\08day5_3\udpsocketdemo\client.py
+udpsocketdemo.server|D:\myjava\08day5_3\udpsocketdemo\server.py

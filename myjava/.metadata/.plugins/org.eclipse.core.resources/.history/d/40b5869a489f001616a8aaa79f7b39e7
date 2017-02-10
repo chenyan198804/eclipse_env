@@ -1,0 +1,8 @@
+'''
+Created on 2016年10月31日
+
+@author: y35chen
+'''
+shopping_cart = ['Flower','Flower','Car']
+help(shopping_cart.__getitem__())
+            

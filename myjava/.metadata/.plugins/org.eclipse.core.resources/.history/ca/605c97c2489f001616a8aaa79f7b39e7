@@ -1,0 +1,10 @@
+'''
+Created on 2016年10月31日
+
+@author: y35chen
+'''
+shopping_cart = ['Flower','Flower','Car']
+print(shopping_cart.index())
+print(shopping_cart.count('Flower'))
+
+            
