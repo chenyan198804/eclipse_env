@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;ipsec/rekey/scapy field test.py&apos; to &apos;scapy_field_test.py&apos;" description="Rename resource &apos;scapy field test.py&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="rekey/scapy field test.py" name="scapy_field_test.py" stamp="1388643298609" updateReferences="true"/>
+</session>

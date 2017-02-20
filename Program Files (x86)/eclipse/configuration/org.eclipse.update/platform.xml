@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config date="1487236829480" transient="false" version="3.0">
+	<site updateable="true" url="platform:/base/" enabled="true" policy="USER-EXCLUDE">
+		<feature id="org.eclipse.cvs.source" version="1.4.0.v20130911-1000" url="features/org.eclipse.cvs.source_1.4.0.v20130911-1000/">
+		</feature>
+		<feature id="org.eclipse.pde" version="3.9.1.v20130911-1000" url="features/org.eclipse.pde_3.9.1.v20130911-1000/">
+		</feature>
+		<feature id="org.eclipse.rcp.source" version="4.3.1.v20130911-1000" url="features/org.eclipse.rcp.source_4.3.1.v20130911-1000/">
+		</feature>
+		<feature id="org.eclipse.pde.source" version="3.9.1.v20130911-1000" url="features/org.eclipse.pde.source_3.9.1.v20130911-1000/">
+		</feature>
+		<feature id="org.eclipse.equinox.p2.rcp.feature" version="1.2.0.v20130828-0031" url="features/org.eclipse.equinox.p2.rcp.feature_1.2.0.v20130828-0031/">
+		</feature>
+		<feature id="org.eclipse.help.source" version="2.0.1.v20130911-1000" url="features/org.eclipse.help.source_2.0.1.v20130911-1000/">
+		</feature>
+		<feature id="org.eclipse.help" version="2.0.1.v20130911-1000" url="features/org.eclipse.help_2.0.1.v20130911-1000/" plugin-identifier="org.eclipse.help.base">
+		</feature>
+		<feature id="org.eclipse.equinox.p2.rcp.feature.source" version="1.2.0.v20130828-0031" url="features/org.eclipse.equinox.p2.rcp.feature.source_1.2.0.v20130828-0031/">
+		</feature>
+		<feature id="org.eclipse.egit" version="3.0.3.201309161630-r" url="features/org.eclipse.egit_3.0.3.201309161630-r/">
+		</feature>
+		<feature id="org.eclipse.rcp.configuration" version="1.0.0.v20130521-1847" url="features/org.eclipse.rcp.configuration_1.0.0.v20130521-1847/">
+		</feature>
+		<feature id="org.eclipse.epp.mpc" version="1.2.1.I20130917-2019" url="features/org.eclipse.epp.mpc_1.2.1.I20130917-2019/" plugin-identifier="org.eclipse.epp.mpc.ui">
+		</feature>
+		<feature id="org.eclipse.equinox.p2.user.ui" version="2.2.0.v20130828-0031" url="features/org.eclipse.equinox.p2.user.ui_2.2.0.v20130828-0031/">
+		</feature>
+		<feature id="org.eclipse.emf.ecore" version="2.9.1.v20130827-0309" url="features/org.eclipse.emf.ecore_2.9.1.v20130827-0309/">
+		</feature>
+		<feature id="org.eclipse.rcp" version="4.3.1.v20130911-1000" url="features/org.eclipse.rcp_4.3.1.v20130911-1000/">
+		</feature>
+		<feature id="org.eclipse.equinox.p2.extras.feature.source" version="1.2.0.v20130827-1605" url="features/org.eclipse.equinox.p2.extras.feature.source_1.2.0.v20130827-1605/">
+		</feature>
+		<feature id="org.eclipse.jdt.source" version="3.9.1.v20130911-1000" url="features/org.eclipse.jdt.source_3.9.1.v20130911-1000/">
+		</feature>
+		<feature id="org.eclipse.epp.package.standard.feature" version="2.0.1.20130919-0803" url="features/org.eclipse.epp.package.standard.feature_2.0.1.20130919-0803/" plugin-identifier="org.eclipse.epp.package.standard">
+		</feature>
+		<feature id="org.eclipse.emf.common" version="2.9.1.v20130827-0309" url="features/org.eclipse.emf.common_2.9.1.v20130827-0309/">
+		</feature>
+		<feature id="org.eclipse.platform.source" version="4.3.1.v20130911-1000" url="features/org.eclipse.platform.source_4.3.1.v20130911-1000/">
+		</feature>
+		<feature id="org.eclipse.e4.rcp" version="1.2.1.v20130910-2014" url="features/org.eclipse.e4.rcp_1.2.1.v20130910-2014/">
+		</feature>
+		<feature id="org.eclipse.equinox.p2.core.feature.source" version="1.2.1.v20130827-1605" url="features/org.eclipse.equinox.p2.core.feature.source_1.2.1.v20130827-1605/">
+		</feature>
+		<feature id="org.eclipse.equinox.p2.core.feature" version="1.2.1.v20130827-1605" url="features/org.eclipse.equinox.p2.core.feature_1.2.1.v20130827-1605/">
+		</feature>
+		<feature id="org.eclipse.epp.package.common.feature" version="2.0.1.20130919-0803" url="features/org.eclipse.epp.package.common.feature_2.0.1.20130919-0803/">
+		</feature>
+		<feature id="org.python.pydev.feature" version="3.1.0.201312121632" url="features/org.python.pydev.feature_3.1.0.201312121632/" plugin-identifier="org.python.pydev">
+		</feature>
+		<feature id="org.eclipse.equinox.p2.extras.feature" version="1.2.0.v20130827-1605" url="features/org.eclipse.equinox.p2.extras.feature_1.2.0.v20130827-1605/">
+		</feature>
+		<feature id="org.eclipse.equinox.p2.user.ui.source" version="2.2.0.v20130828-0031" url="features/org.eclipse.equinox.p2.user.ui.source_2.2.0.v20130828-0031/">
+		</feature>
+		<feature id="org.eclipse.cvs" version="1.4.0.v20130911-1000" url="features/org.eclipse.cvs_1.4.0.v20130911-1000/">
+		</feature>
+		<feature id="org.eclipse.jgit" version="3.0.3.201309161630-r" url="features/org.eclipse.jgit_3.0.3.201309161630-r/">
+		</feature>
+		<feature id="org.eclipse.e4.rcp.source" version="1.2.1.v20130910-2014" url="features/org.eclipse.e4.rcp.source_1.2.1.v20130910-2014/">
+		</feature>
+		<feature id="org.eclipse.jdt" version="3.9.1.v20130911-1000" url="features/org.eclipse.jdt_3.9.1.v20130911-1000/">
+		</feature>
+		<feature id="org.eclipse.equinox.p2.discovery.feature" version="1.0.100.v20130502-0334" url="features/org.eclipse.equinox.p2.discovery.feature_1.0.100.v20130502-0334/">
+		</feature>
+		<feature id="org.eclipse.platform" version="4.3.1.v20130911-1000" url="features/org.eclipse.platform_4.3.1.v20130911-1000/">
+		</feature>
+	</site>
+	<site updateable="true" url="file:/D:/Program Files (x86)/eclipse/dropins/" enabled="true" policy="USER-EXCLUDE">
+		<feature id="org.python.pydev.feature" version="3.1.0.201312121632" url="features/org.python.pydev.feature_3.1.0.201312121632/" plugin-identifier="org.python.pydev">
+		</feature>
+		<feature id="org.python.pydev.mylyn.feature" version="0.4.0" url="features/org.python.pydev.mylyn.feature_0.4.0/">
+		</feature>
+	</site>
+</config>

@@ -1,0 +1,19 @@
+Manifest-Version: 1.0
+Build-Jdk: 1.7.0_10
+Built-By: Fabio
+Created-By: Apache Maven
+Archiver-Version: Plexus Archiver
+
+Name: META-INF/maven/org.python.pydev/org.python.pydev.feature/pom.xml
+SHA-256-Digest: SPFfklgKPLh6S84Zg0VjWEz84Z0bGeMC1lsYsjNPUlE=
+
+Name: LICENSE.txt
+SHA-256-Digest: J75t01G5GT6rkY9hiDNA+yh/SDVMI+VNinfwannMATI=
+
+Name: feature.xml
+SHA-256-Digest: /M3kQWHgmtxr4VXjauxxq08yMrifQZf6Wq4ATT7hbhI=
+
+Name: META-INF/maven/org.python.pydev/org.python.pydev.feature/pom.pro
+ perties
+SHA-256-Digest: Lm1yDaGlZR/Ra7LyU+3MoFucVdWDaGfJ3JdU5bjFnaA=
+

@@ -1,0 +1,190 @@
+No.     Time               Source                Destination           Protocol Length IP Len     Flags      Info
+     13 17:11:15.120700000 10.69.196.184         10.69.196.47          ISAKMP   238    224        0x02       CREATE_CHILD_SA
+
+Frame 13: 238 bytes on wire (1904 bits), 238 bytes captured (1904 bits) on interface 0
+Ethernet II, Src: Dell_1e:1b:2b (18:03:73:1e:1b:2b), Dst: NokiaSie_69:95:c7 (00:0f:bb:69:95:c7)
+Internet Protocol Version 4, Src: 10.69.196.184 (10.69.196.184), Dst: 10.69.196.47 (10.69.196.47)
+User Datagram Protocol, Src Port: isakmp (500), Dst Port: isakmp (500)
+Internet Security Association and Key Management Protocol
+    Initiator cookie: 41a041cbe7b8d112
+    Responder cookie: 81edd016cd8ff2c0
+    Next payload: Encrypted and Authenticated (46)
+    Version: 2.0
+    Exchange type: CREATE_CHILD_SA (36)
+    Flags: 0x00
+        .... 0... = Initiator: Responder
+        ...0 .... = Version: No higher version
+        ..0. .... = Response: Request
+    Message ID: 0x00000025
+    Length: 196
+    Type Payload: Encrypted and Authenticated (46)
+        Next payload: Notify (41)
+        0... .... = Critical Bit: Not Critical
+        Payload length: 168
+        Initialization Vector: d4d37e5f1144ae15 (8 bytes)
+        Encrypted Data (144 bytes)
+        Decrypted Data (144 bytes)
+            Contained Data (136 bytes)
+                Type Payload: Notify (41)
+                    Next payload: Security Association (33)
+                    0... .... = Critical Bit: Not Critical
+                    Payload length: 12
+                    Protocol ID: ESP (3)
+                    SPI Size: 4
+                    Notify Message Type: REKEY_SA (16393)
+                    SPI Size: c7aa9799
+                    Notification DATA: <MISSING>
+                Type Payload: Security Association (33)
+                    Next payload: Nonce (40)
+                    0... .... = Critical Bit: Not Critical
+                    Payload length: 40
+                    Type Payload: Proposal (2) # 1
+                        Next payload: NONE / No Next Payload  (0)
+                        0... .... = Critical Bit: Not Critical
+                        Payload length: 36
+                        Proposal number: 1
+                        Protocol ID: ESP (3)
+                        SPI Size: 4
+                        Proposal transforms: 3
+                        SPI Size: c7837bc9
+                        Type Payload: Transform (3)
+                            Next payload: Transform (3)
+                            0... .... = Critical Bit: Not Critical
+                            Payload length: 8
+                            Transform Type: Encryption Algorithm (ENCR) (1)
+                            Transform ID (ENCR): ENCR_3DES (3)
+                        Type Payload: Transform (3)
+                            Next payload: Transform (3)
+                            0... .... = Critical Bit: Not Critical
+                            Payload length: 8
+                            Transform Type: Integrity Algorithm (INTEG) (3)
+                            Transform ID (INTEG): AUTH_HMAC_SHA1_96 (2)
+                        Type Payload: Transform (3)
+                            Next payload: NONE / No Next Payload  (0)
+                            0... .... = Critical Bit: Not Critical
+                            Payload length: 8
+                            Transform Type: Extended Sequence Numbers (ESN) (5)
+                            Transform ID (ESN): No Extended Sequence Numbers (0)
+                Type Payload: Nonce (40)
+                    Next payload: Traffic Selector - Initiator (44)
+                    0... .... = Critical Bit: Not Critical
+                    Payload length: 36
+                    Nonce DATA: 6510bcd5c9b5ec211df00d5e3b36048ce7a14263da06d0a0...
+                Type Payload: Traffic Selector - Initiator (44) # 1
+                    Next payload: Traffic Selector - Responder (45)
+                    0... .... = Critical Bit: Not Critical
+                    Payload length: 24
+                    Number of Traffic Selector: 1
+                    Traffic Selector Type: TS_IPV4_ADDR_RANGE (7)
+                    Protocol ID: Unused
+                    Selector Length: 16
+                    Start Port: 0
+                    End Port: 65535
+                    Starting Addr: 10.69.196.0 (10.69.196.0)
+                    Ending Addr: 10.69.196.255 (10.69.196.255)
+                Type Payload: Traffic Selector - Responder (45) # 1
+                    Next payload: NONE / No Next Payload  (0)
+                    0... .... = Critical Bit: Not Critical
+                    Payload length: 24
+                    Number of Traffic Selector: 1
+                    Traffic Selector Type: TS_IPV4_ADDR_RANGE (7)
+                    Protocol ID: Unused
+                    Selector Length: 16
+                    Start Port: 0
+                    End Port: 65535
+                    Starting Addr: 10.69.196.47 (10.69.196.47)
+                    Ending Addr: 10.69.196.47 (10.69.196.47)
+            Padding (7 bytes)
+            Pad Length: 7
+        Integrity Checksum Data: a4bcded8f7bbc403faec6018 (12 bytes)[correct]
+
+No.     Time               Source                Destination           Protocol Length IP Len     Flags      Info
+     14 17:11:15.124401000 10.69.196.47          10.69.196.184         ISAKMP   222    208        0x00       CREATE_CHILD_SA
+
+Frame 14: 222 bytes on wire (1776 bits), 222 bytes captured (1776 bits) on interface 0
+Ethernet II, Src: NokiaSie_69:95:c7 (00:0f:bb:69:95:c7), Dst: Dell_1e:1b:2b (18:03:73:1e:1b:2b)
+Internet Protocol Version 4, Src: 10.69.196.47 (10.69.196.47), Dst: 10.69.196.184 (10.69.196.184)
+User Datagram Protocol, Src Port: isakmp (500), Dst Port: isakmp (500)
+Internet Security Association and Key Management Protocol
+    Initiator cookie: 41a041cbe7b8d112
+    Responder cookie: 81edd016cd8ff2c0
+    Next payload: Encrypted and Authenticated (46)
+    Version: 2.0
+    Exchange type: CREATE_CHILD_SA (36)
+    Flags: 0x28
+        .... 1... = Initiator: Initiator
+        ...0 .... = Version: No higher version
+        ..1. .... = Response: Response
+    Message ID: 0x00000025
+    Length: 180
+    Type Payload: Encrypted and Authenticated (46)
+        Next payload: Security Association (33)
+        0... .... = Critical Bit: Not Critical
+        Payload length: 152
+        Initialization Vector: 0af1568d4709713b (8 bytes)
+        Encrypted Data (128 bytes)
+        Decrypted Data (128 bytes)
+            Contained Data (124 bytes)
+                Type Payload: Security Association (33)
+                    Next payload: Nonce (40)
+                    0... .... = Critical Bit: Not Critical
+                    Payload length: 40
+                    Type Payload: Proposal (2) # 1
+                        Next payload: NONE / No Next Payload  (0)
+                        0... .... = Critical Bit: Not Critical
+                        Payload length: 36
+                        Proposal number: 1
+                        Protocol ID: ESP (3)
+                        SPI Size: 4
+                        Proposal transforms: 3
+                        SPI Size: ce8153f2
+                        Type Payload: Transform (3)
+                            Next payload: Transform (3)
+                            0... .... = Critical Bit: Not Critical
+                            Payload length: 8
+                            Transform Type: Encryption Algorithm (ENCR) (1)
+                            Transform ID (ENCR): ENCR_3DES (3)
+                        Type Payload: Transform (3)
+                            Next payload: Transform (3)
+                            0... .... = Critical Bit: Not Critical
+                            Payload length: 8
+                            Transform Type: Integrity Algorithm (INTEG) (3)
+                            Transform ID (INTEG): AUTH_HMAC_SHA1_96 (2)
+                        Type Payload: Transform (3)
+                            Next payload: NONE / No Next Payload  (0)
+                            0... .... = Critical Bit: Not Critical
+                            Payload length: 8
+                            Transform Type: Extended Sequence Numbers (ESN) (5)
+                            Transform ID (ESN): No Extended Sequence Numbers (0)
+                Type Payload: Nonce (40)
+                    Next payload: Traffic Selector - Initiator (44)
+                    0... .... = Critical Bit: Not Critical
+                    Payload length: 36
+                    Nonce DATA: 8b1f5bdace87b3d78e2115ffe3373157e5112de8e7cc5334...
+                Type Payload: Traffic Selector - Initiator (44) # 1
+                    Next payload: Traffic Selector - Responder (45)
+                    0... .... = Critical Bit: Not Critical
+                    Payload length: 24
+                    Number of Traffic Selector: 1
+                    Traffic Selector Type: TS_IPV4_ADDR_RANGE (7)
+                    Protocol ID: Unused
+                    Selector Length: 16
+                    Start Port: 0
+                    End Port: 65535
+                    Starting Addr: 10.69.196.100 (10.69.196.100)
+                    Ending Addr: 10.69.196.100 (10.69.196.100)
+                Type Payload: Traffic Selector - Responder (45) # 1
+                    Next payload: NONE / No Next Payload  (0)
+                    0... .... = Critical Bit: Not Critical
+                    Payload length: 24
+                    Number of Traffic Selector: 1
+                    Traffic Selector Type: TS_IPV4_ADDR_RANGE (7)
+                    Protocol ID: Unused
+                    Selector Length: 16
+                    Start Port: 0
+                    End Port: 65535
+                    Starting Addr: 10.69.196.47 (10.69.196.47)
+                    Ending Addr: 10.69.196.47 (10.69.196.47)
+            Padding (3 bytes)
+            Pad Length: 3
+        Integrity Checksum Data: c48648bac7ced2b7e3c8407f (12 bytes)[correct]
